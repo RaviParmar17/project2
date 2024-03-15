@@ -1,0 +1,370 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+   
+}
+
+#nav{
+background-color: white;
+display: flex;
+align-items: center;
+
+}
+#nav>div>img{
+    width: 130px;
+    padding-left: 165px;
+}
+.fa-bars{
+   
+    font-size: 45px;
+    padding-left: 820px;
+}
+
+#name{
+    background-image: linear-gradient(0deg, rgba(41, 46, 51, 0.65), rgba(41, 46, 51, 0.65)), url(./images3/camping-min.jpg);
+    width: 100%;
+    background-size: cover;
+    color:#eaebec;
+    text-align: center;
+}
+#name>img{
+    width: 20rem;
+}
+#name>h3{
+    font-size: 1.4rem;
+    letter-spacing: 3px;
+    padding-top: 210px;
+}
+
+
+#name>h1{
+    font-size: 6rem;
+   margin-top: 35px;
+   color: white;
+}
+#name>h1:hover{
+transform: rotate(-360deg);
+transition: 3s;
+color:#f58d54;
+}
+#name>p{
+    font-size: 1.6rem;
+    margin-bottom: 50px;
+    margin-top: -15px;
+    
+}
+#name>button{
+    border-radius: 3rem;
+    padding: 1.3rem 3rem;
+background-color: transparent;
+border: 3px solid #eaebec;
+color: #eaebec;
+font-weight: bold;
+font-size: 23px;
+margin-bottom: 180px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #293233;
+}
+
+#card{
+   
+    width: 80%;
+      display: flex;
+    justify-content: center;
+   
+         
+} 
+
+#t{
+margin-left: 30px;
+}
+#e{
+    margin-left: 30px;
+}
+#a{
+    margin-left: 30px;
+}
+#l{
+    margin-left: 30px;
+}
+
+
+
+#card>div{
+   width: 25%;   
+   text-align: center;
+   border: 5px solid #f58d54;
+   color: white;
+   border-radius: 2rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   margin-top: -5rem;
+   background-color: #293233; 
+   
+}
+
+.fa-location-dot{
+    font-size: 45px;
+    color: #f58d54;
+    padding-top: 1.5rem;
+}
+.fa-globe{
+    font-size: 45px;
+    color: #f58d54;
+    padding-top: 1.5rem;
+}
+.fa-campground{
+    font-size: 45px;
+    color: #f58d54;
+    padding-top: 1.5rem;
+}
+.fa-hotel{
+    font-size: 45px;
+    color: #f58d54;
+    padding-top: 1.5rem;
+}
+
+#back{
+    background-color: #293233;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin-top: -56px;
+}
+
+#back>h1{
+    font-size: 4.2rem;
+    
+    padding-top: 65px;
+   
+}
+#back>p{
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+#back>h5{
+    letter-spacing: 3px;
+}
+#back>button{
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 1.5rem 3rem;
+    color: white;
+    border: 2px solid white;
+    margin: 10px;
+    
+    
+}
+#back:hover{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),  url(./images3/OCR-L-SUNSETS-0104-01-LO_71377123-1.webp);
+   background-size: cover;
+  
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #293233;
+    margin-top: -20px;
+    padding-bottom: 110px;
+}
+
+#enjoy{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    
+}
+#enjoy>div{
+
+
+  width: 30%;   
+   text-align:left; 
+   color: #293233;
+   border-radius: 1rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   margin-top: 10rem;
+   background-color: white; 
+   padding-top: 20px;
+   
+
+
+}
+#enjoy>div:hover{
+    filter: blur(2px);
+    transition: 2s;
+}
+#d1{
+    margin-left: 25px;
+    box-shadow: 10px 10px 10px black;
+}
+#d1>p{
+    margin-bottom: 30px;
+}
+a{
+    color: black;
+}
+#d2{
+    margin-left: 25px;
+    box-shadow: 10px 10px 10px black;
+}
+#d3{
+    margin-left: 25px;
+    box-shadow: 10px 10px 10px black;
+}
+img{
+    width: 50%;
+    border-radius: 100%;
+
+}
+ 
+#article{
+    background-color: #293233;
+    color: white;
+    display: flex;
+justify-content: center;
+margin-top: 0;
+}
+#article>img{
+    width: 45%;
+    padding-bottom: 110px;
+    border-radius: 100%;
+   
+   
+}
+#article>img:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+}
+
+#article>div{
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 440px;
+   border-radius: 2rem;
+   margin-left: -175px;
+   margin-top: 340px;
+   box-shadow: 30px 23px 32px black;
+
+}
+#article>div>h1{
+    font-size: 4rem;
+    padding-left: 40px;
+}
+#article>div>p{
+    word-spacing: 4px;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+#article>div>button{
+    padding: 1rem 3rem;
+    background-color: #f58d54;
+    color: white;
+    border-radius: 2rem;
+    padding-left: 35px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+#footer{
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(./images3/man-with-rucksack-admires-gorgeous-mountain-555.jpg);
+    width: 100%;
+    background-size: cover;
+    background-color: #293233;
+    color: white;
+    margin-top: -55px;
+    
+
+}
+#footer>h1{
+    font-size: 4rem;
+    padding-left: 162px;
+    padding-top: 260px;
+}
+#footer>pre{
+    font-size: 1.1rem;
+    padding-left: 170px;
+}
+#footer>div{
+    display: flex;
+    justify-content: baseline;
+    padding-bottom: 190px;
+    margin-left: 145px;
+}
+#footer>div>i{
+    padding: 1.2rem;
+    text-align: center;
+}
+.fa-facebook-f{
+    font-size: 35px;
+    padding-left: 0;
+}
+.fa-twitter{
+    font-size: 35px;
+}
+.fa-instagram{
+    font-size: 35px;
+}
+.fa-google-plus-g{
+    font-size: 35px;
+}
+
+#last{
+    background-color: #293233;
+    color: white;
+    text-align: center;
+    margin-top: -53px;
+}
+#last>h1{
+    font-size: 4rem;
+}
+#last>input{
+    width: 20%;
+    padding: 1rem 1.1rem;
+    background-color: #435152;
+    border-bottom: 2px solid white; 
+    color: #7b8485 ;
+    margin: 30px;
+}
+#last>textarea{
+    background-color: #435152;
+    border-bottom: 2px solid white;
+    margin: 1.2rem;
+}
+
+#last>button{
+    border-radius: 2rem;
+    padding: 1rem 21rem;
+    background-color: #f58d54;
+    color: black;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
